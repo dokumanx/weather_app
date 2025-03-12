@@ -7,6 +7,8 @@
 
 ## Başlangıç 🚀
 
+**Not:** `lib/core/interceptors/auth_interceptor.dart` dosyasındaki `YOUR_API_KEY` değerini kendi API anahtarınız ile güncelleyin.
+
 Bu uygulama 3 farklı flavor içermektedir:
 
 - Development
@@ -32,7 +34,7 @@ $ cd ios && rm -rf Podfile.lock Pods/ && pod install --repo-update && cd ../
 
 ### Development Flavor
 
-Development flavor’ında
+Development flavor'ında
 çalıştırdığınızda, [Device Preview](https://pub.dev/packages/device_preview_plus) paketi otomatik
 olarak devreye girer. Bu özellik sayesinde uygulamanın farklı cihaz türlerinde (telefon, tablet vb.)
 nasıl göründüğünü ve nasıl reaksiyon verdiğini kolayca gözlemleyebilirsiniz. Bu, özellikle
@@ -47,7 +49,7 @@ devre dışı bırakılmıştır ve yalnızca production ortamına uygun özelli
 
 ## Uygulamayı Çalıştırma 🚀
 
-Aşağıdaki komutlarla istediğiniz flavor’da uygulamayı çalıştırabilirsiniz:
+Aşağıdaki komutlarla istediğiniz flavor'da uygulamayı çalıştırabilirsiniz:
 
 ```sh
 # Development
