@@ -28,7 +28,7 @@ dependencies:
   flutter_animate: ^4.5.2
   dio: ^5.7.0
   responsive_builder: ^0.7.1
-  device_preview_plus: ^2.2.3
+  device_preview_plus: ^2.3.2
 
 
 dev_dependencies:
